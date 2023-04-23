@@ -1,7 +1,5 @@
 import {
   mobile,
-  backend,
-  creator,
   web,
   javascript,
   typescript,
@@ -10,19 +8,16 @@ import {
   reactjs,
   redux,
   tailwind,
-  nodejs,
-  mongodb,
   git,
   figma,
-  docker,
-  meta,
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  irc,
+  courier,
+  aspenku,
+  wardaya,
+  cms,
 } from "../assets";
 
 export const navLinks = [
@@ -46,16 +41,8 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Frontend Developer",
     icon: mobile,
-  },
-  {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
   },
 ];
 
@@ -88,18 +75,7 @@ const technologies = [
     name: "Tailwind CSS",
     icon: tailwind,
   },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+
   {
     name: "git",
     icon: git,
@@ -108,120 +84,77 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Front End Developer",
+    company_name: "Monster Group",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "February 2022 - February 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Collaborate with the design team to translate user requirements into a visually appealing and functional web application using React.js",
+      "Build reusable React components and implement them in the CMS to enable fast and efficient development of new features",
+      "Optimized the application for fast loading and improved user experience .",
+      "Worked with the UX team to develop wireframes and prototypes for new features",
+      "Participate in code reviews to ensure high-quality and maintainable code",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Front End Developer",
+    company_name: "Aplikasi Penunjang Ekonomi Nasional",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Agustus 2020 - January 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Develop a user-friendly and responsive front-end interface using React.js",
+      "Implement search engine optimization (SEO) techniques to ensure that the website is easily discoverable by search engines",
+      "Collaborate with the back-end development team to ensure seamless integration between the front-end and the back-end",
+      "Build reusable React components and implement them in the website to enable fast and efficient development of new features",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Front End Developer",
+    company_name: "Wardaya College",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Jan 2019 - Juli 2020",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Implement search engine optimization (SEO) techniques to ensure that the website is easily discoverable by search engines",
+      "Develop and implement a content management system (CMS) using React.js to allow the client to easily manage the content of the website.",
+      "Collaborate with the back-end development team to ensure seamless integration between the front-end and the back-end.",
+      "Develop a user-friendly and responsive front-end interface",
     ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-];
-
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Website for Online Learning",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Wardaya Online is an online learning platform that offers a variety of courses and educational resources for users. The platform aims to provide high-quality education to students in Indonesia and beyond, with courses ranging from language learning to professional development.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
+        name: "boostrap",
         color: "pink-text-gradient",
       },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: wardaya,
+    source_code_link: "https://wardayaonline.com/",
   },
   {
-    name: "Job IT",
+    name: "Website for Information ",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "The project is a website that provides information about events and activities held by Wardaya. The website aims to be a hub of information for users who are interested in attending events hosted by Wardaya, providing details such as event descriptions, dates, times, and locations..",
     tags: [
       {
         name: "react",
@@ -232,34 +165,72 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "css",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: irc,
+    source_code_link: "https://irc.wardayaonline.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Marketplace",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "The project is an online marketplace platform that connects UMKM , with customers. The platform is designed to provide a space for UMKM sellers to showcase and sell their products or services to a wider audience, while also providing customers with a diverse range of products to choose from.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "boostrap",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: aspenku,
+    source_code_link: "https://aspenku.com/",
+  },
+  {
+    name: "Delivery services in Aspenku ",
+    description:
+      "The project may offer a range of delivery options, including same-day, next-day, or express delivery services. It may also offer tracking and monitoring tools to help customers keep track of their packages in real-time. ",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "firebase",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwindcss",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: courier,
+    source_code_link: "https://courier.aspenku.com/",
+  },
+  {
+    name: "Content Management System ",
+    description:
+      "The project is a Content Management System (CMS) that is used internally within an organization to input and manage master data. Master data refers to the essential data that is used to run the business, such as customer information, product information, and financial data.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "boostrap",
+        color: "green-text-gradient",
+      },
+    ],
+    image: cms,
     source_code_link: "https://github.com/",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };

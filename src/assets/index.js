@@ -30,6 +30,12 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import irc from "./irc.png";
+import courier from "./courier_aspenku.png";
+import aspenku from "./marketplace.png";
+import wardaya from "./wardaya.png";
+import cms from "./cms.png";
+
 export {
   logo,
   backend,
@@ -59,4 +65,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  irc,
+  courier,
+  aspenku,
+  wardaya,
+  cms,
 };
