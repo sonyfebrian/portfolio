@@ -1,10 +1,8 @@
-import React from "react";
-
 import { BallCanvas } from "../../components/canvas";
 import { SectionWrapper } from "../../hoc";
 import { technologies } from "../../constants";
 
-const Tech = () => {
+export const Tech = () => {
   return (
     <div className="flex flex-row flex-wrap justify-center gap-10">
       {technologies.map((technology) => (
@@ -15,5 +13,5 @@ const Tech = () => {
     </div>
   );
 };
-
-export default SectionWrapper(Tech, "");
+const ContactSectionWrapper = SectionWrapper(Tech, "");
+export default ContactSectionWrapper;

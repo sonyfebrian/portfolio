@@ -1,4 +1,3 @@
-import React from "react";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
@@ -7,13 +6,15 @@ import { services } from "../../constants";
 import { SectionWrapper } from "../../hoc";
 import { fadeIn, textVariant } from "../../utils/motion";
 
-const ServiceCard = ({ index, title, icon }) => (
+// eslint-disable-next-line react/prop-types
+export const ServiceCard = ({ index, title, icon }) => (
   <Tilt className="xs:w-[250px] w-full">
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
       className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
     >
       <div
+        // eslint-disable-next-line react/no-unknown-property
         options={{
           max: 45,
           scale: 1,
@@ -47,11 +48,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React.js, Vue.js. I'm a
+        I&#39;m a skilled software developer with experience in TypeScript and
+        JavaScript, and expertise in frameworks like React.js, Vue.js. I&#39;m a
         quick learner and collaborate closely with clients to create efficient,
         scalable, and user-friendly solutions that solve real-world problems.
-        Let's work together to bring your ideas to life!
+        Let&#39;s work together to bring your ideas to life!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
@@ -63,4 +64,5 @@ const About = () => {
   );
 };
 
-export default SectionWrapper(About, "about");
+const ContactSectionWrapper = SectionWrapper(About, "about");
+export default ContactSectionWrapper;

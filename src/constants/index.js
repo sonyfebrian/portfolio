@@ -18,6 +18,7 @@ import {
   aspenku,
   wardaya,
   cms,
+  rafas,
 } from "../assets";
 
 export const navLinks = [
@@ -230,6 +231,23 @@ const projects = [
     ],
     image: cms,
     source_code_link: "https://github.com/",
+  },
+  {
+    name: "Company Profile ",
+    description:
+      " project company profile developed with Next.js and Tailwind CSS showcases company's services, team, and achievements through a modern and responsive website. The combination of Next.js and Tailwind CSS provides  with performance optimization, responsive design, and a maintainable codebase, resulting in an exceptional user experience for  visitors.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind css",
+        color: "green-text-gradient",
+      },
+    ],
+    image: rafas,
+    source_code_link: "https://www.rafas.id/",
   },
 ];
 

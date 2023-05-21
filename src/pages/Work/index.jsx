@@ -1,4 +1,3 @@
-import React from "react";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
@@ -8,7 +7,7 @@ import { SectionWrapper } from "../../hoc";
 import { projects } from "../../constants";
 import { fadeIn, textVariant } from "../../utils/motion";
 
-const ProjectCard = ({
+export const ProjectCard = ({
   index,
   name,
   description,
@@ -97,4 +96,5 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "");
+const ContactSectionWrapper = SectionWrapper(Works, "work");
+export default ContactSectionWrapper;

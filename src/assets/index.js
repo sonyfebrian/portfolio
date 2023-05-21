@@ -35,6 +35,7 @@ import courier from "./courier_aspenku.png";
 import aspenku from "./marketplace.png";
 import wardaya from "./wardaya.png";
 import cms from "./cms.png";
+import rafas from "./rafas.png";
 
 export {
   logo,
@@ -70,4 +71,5 @@ export {
   aspenku,
   wardaya,
   cms,
+  rafas,
 };
