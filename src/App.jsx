@@ -1,7 +1,7 @@
 import { BrowserRouter } from "react-router-dom";
-
+import styles from "./style";
 import { Navbar, Hero, StarsCanvas } from "./components";
-import { About, Experience, Tech, Work, Contact } from "./pages";
+import { Experience, Tech, Work, Contact } from "./pages";
 
 function App() {
   return (
@@ -9,9 +9,19 @@ function App() {
       <div className="relative z-0 bg-primary">
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar />
-          <Hero />
+          {/* <Hero /> */}
+          <div className={` ${styles.flexStart}`}>
+            <div className={`${styles.boxWidth}`}>
+              <Hero />
+            </div>
+          </div>
         </div>
-        <About />
+        {/* <div className={`bg-primary ${styles.flexStart}`}>
+          <div className={`${styles.boxWidth}`}>
+            <Hero />
+          </div>
+        </div> */}
+        {/* <About /> */}
         <Work />
         <Experience />
         <Tech />
