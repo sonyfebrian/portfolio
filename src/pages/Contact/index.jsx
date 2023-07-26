@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { styles } from "./styles";
-import { EarthCanvas } from "../../components";
+// import { EarthCanvas } from "../../components";
 import { SectionWrapper } from "../../hoc";
 import { slideIn } from "../../utils/motion";
 import { github } from "../../assets";
@@ -59,12 +59,12 @@ export const Contact = () => {
         </a>
       </motion.div>
 
-      <motion.div
+      {/* <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
         className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
       >
         <EarthCanvas />
-      </motion.div>
+      </motion.div> */}
     </div>
   );
 };

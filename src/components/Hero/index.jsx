@@ -1,5 +1,5 @@
-import robot from "../../assets/robot.png";
-
+// import robot from "../../assets/robot.png";
+import { EarthCanvas } from "../../components";
 import styles from "./styles";
 
 const Hero = () => {
@@ -31,12 +31,14 @@ const Hero = () => {
         <div
           className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}
         >
-          <img
+          {/* <img
             src={robot}
             alt="billing"
             className="w-[100%] h-[100%] relative z-[5]"
-          />
+          /> */}
+          <EarthCanvas />
         </div>
+        {/* <EarthCanvas /> */}
       </section>
     </>
   );
