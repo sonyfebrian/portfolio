@@ -1,8 +1,15 @@
 // import robot from "../../assets/robot.png";
 import { EarthCanvas } from "../../components";
 import styles from "./styles";
+import { IoLogoGithub, IoLogoLinkedin } from "react-icons/io5";
 
 const Hero = () => {
+  const social_media = [
+    "logo-instagram",
+    "logo-facebook",
+    "logo-linkedin",
+    "logo-twitter",
+  ];
   return (
     <>
       <section
@@ -26,6 +33,33 @@ const Hero = () => {
             real-world problems. Let&#39;s work together to bring your ideas to
             life!
           </p>
+          <p className="text-5xl mt-5 flex items-center gap-5">
+            {" "}
+            <a
+              href="https://github.com/sonyfebrian"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <IoLogoGithub className="text-gray-600 hover:text-white cursor-pointer " />
+            </a>
+            <a
+              href=" https://www.linkedin.com/in/sony-febrian-217064196"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <IoLogoLinkedin className=" text-gray-600 hover:text-white cursor-pointer " />
+            </a>
+          </p>
+          <div className="mt-8 text-3xl flex items-center md:justify-start justify-center gap-5">
+            {social_media?.map((icon) => (
+              <div
+                key={icon}
+                className="text-gray-600 hover:text-white cursor-pointer "
+              >
+                <ion-icon name={icon}></ion-icon>
+              </div>
+            ))}
+          </div>
         </div>
 
         <div

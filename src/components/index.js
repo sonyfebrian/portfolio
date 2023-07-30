@@ -1,5 +1,6 @@
 import Navbar from "./Navbar";
 import Hero from "./Hero";
+import WhatsApp from "./WhatsappBot";
 import CanvasLoader from "./Loader";
 import {
   EarthCanvas,
@@ -16,4 +17,5 @@ export {
   BallCanvas,
   ComputersCanvas,
   StarsCanvas,
+  WhatsApp,
 };

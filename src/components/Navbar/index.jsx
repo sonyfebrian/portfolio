@@ -61,6 +61,9 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+          <a href="./src/assets/cv.pdf" download>
+            <button className="btn-primary">Download CV</button>
+          </a>
         </ul>
 
         <div className="sm:hidden flex flex-1 justify-end items-center">
