@@ -40,14 +40,15 @@ const Hero: React.FC = () => {
                         <a
                             href="https://github.com/sonyfebrian"
                             target="_blank"
-                            rel="noreferrer"
+                            rel="canonical"
                         >
                             <IoLogoGithub className="text-gray-600 hover:text-white cursor-pointer " />
                         </a>
                         <a
+
                             href=" https://www.linkedin.com/in/sony-febrian-217064196"
                             target="_blank"
-                            rel="noreferrer"
+                            rel="canonical"
                         >
                             <IoLogoLinkedin className=" text-gray-600 hover:text-white cursor-pointer " />
                         </a>
