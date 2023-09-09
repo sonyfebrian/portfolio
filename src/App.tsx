@@ -1,5 +1,6 @@
 
-import { Navbar } from "./component"
+import { Navbar, Hero, Bot } from "./component"
+import { Wrappper, WrappperWork, ExperienceWrapper } from "./pages"
 import styles from "./style"
 function App() {
 
@@ -8,13 +9,20 @@ function App() {
       <div className="relative z-0 bg-primary">
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar />
-          {/* <Hero /> */}
+
           <div className={` ${styles.flexStart}`}>
             <div className={`${styles.boxWidth}`}>
-              tes
+              <Hero />
             </div>
           </div>
+
         </div>
+        <Bot />
+        <div className="relative z-0">
+          <Wrappper />
+        </div>
+        <WrappperWork />
+        <ExperienceWrapper />
       </div>
 
     </>
