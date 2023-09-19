@@ -12,7 +12,7 @@ const Bot: React.FC = () => {
     return (
         <div
             onClick={handleClick}
-            className="fixed bottom-5 sm:right-8 right-4 z-[999] cursor-pointer text-white text-4xl bg-green-500 w-16 h-16 flex items-center justify-center rounded-full animate-bounce"
+            className="fixed bottom-16 sm:right-8 right-4 z-[999] cursor-pointer text-white text-4xl bg-green-500 w-16 h-16 flex items-center justify-center rounded-full animate-bounce"
         >
             <FaWhatsapp className="text-white text-xl" />
         </div>
