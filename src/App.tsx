@@ -1,6 +1,7 @@
 
 import { Navbar, Hero, Bot } from "./component"
 import { Wrappper, WrappperWork, ExperienceWrapper } from "./pages"
+
 import styles from "./style"
 function App() {
 
@@ -18,11 +19,12 @@ function App() {
 
         </div>
         <Bot />
-        <div className="relative z-0">
+        <div className="relative z-0 hidden sm:block md:block ">
           <Wrappper />
         </div>
         <WrappperWork />
         <ExperienceWrapper />
+
       </div>
 
     </>
