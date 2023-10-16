@@ -8,9 +8,7 @@ import {
   tailwind,
   git,
   figma,
-  wardaya,
-  irc,
-  aspenku, courier, cms, rafas, tesla, starbucks, shopify
+  tesla, starbucks, shopify
   } from "@/assets";
 
 
@@ -99,7 +97,7 @@ export interface NavLink {
           color: "green-text-gradient",
         },
       ],
-      image: wardaya,
+      image: "https://res.cloudinary.com/dqw6zit8r/image/upload/v1697441023/website/wardaya_lwurtx.png",
       source_code_link: "https://wardayaonline.com/",
     },
     {
@@ -120,7 +118,7 @@ export interface NavLink {
           color: "pink-text-gradient",
         },
       ],
-      image: irc,
+      image: "https://res.cloudinary.com/dqw6zit8r/image/upload/v1697441025/website/irc_nbfevv.png",
       source_code_link: "https://irc.wardayaonline.com/",
     },
     {
@@ -141,7 +139,7 @@ export interface NavLink {
           color: "pink-text-gradient",
         },
       ],
-      image: aspenku,
+      image: "https://res.cloudinary.com/dqw6zit8r/image/upload/v1697441025/website/marketplace_oi3edd.png",
       source_code_link: "https://aspenku.com/",
     },
     {
@@ -162,7 +160,7 @@ export interface NavLink {
           color: "pink-text-gradient",
         },
       ],
-      image: courier,
+      image: "https://res.cloudinary.com/dqw6zit8r/image/upload/v1697441025/website/courier_aspenku_zavraa.png",
       source_code_link: "https://courier.aspenku.com/",
     },
     {
@@ -179,7 +177,7 @@ export interface NavLink {
           color: "green-text-gradient",
         },
       ],
-      image: cms,
+      image: "https://res.cloudinary.com/dqw6zit8r/image/upload/v1697440859/website/Screenshot_at_2022-12-07_15-48-10_f8mkau.png",
       source_code_link: "https://github.com/",
     },
     {
@@ -196,7 +194,7 @@ export interface NavLink {
           color: "green-text-gradient",
         },
       ],
-      image: rafas,
+      image: "https://res.cloudinary.com/dqw6zit8r/image/upload/v1697441026/website/rafas_abkwd9.png",
       source_code_link: "https://www.rafas.id/",
     },
   ];

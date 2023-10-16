@@ -26,16 +26,11 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 
-import irc from "./irc.png";
-import courier from "./courier_aspenku.png";
-import aspenku from "./marketplace.png";
-import wardaya from "./wardaya.png";
-import cms from "./cms.png";
-import rafas from "./rafas.png";
+import jobit from "./jobit.png";
+
+
+
 
 export {
   logo,
@@ -63,13 +58,8 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
+
   jobit,
-  tripguide,
-  irc,
-  courier,
-  aspenku,
-  wardaya,
-  cms,
-  rafas,
+ 
+ 
 };
