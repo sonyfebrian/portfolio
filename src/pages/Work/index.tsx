@@ -73,9 +73,7 @@ const Works: React.FC = () => {
                 <h3 className="text-4xl font-semibold">
                     Pro<span className="text-cyan-600">jects</span>
                 </h3>
-            </div>
-            <div className="w-full flex">
-                <p className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]">
+                <p className="mt-3 text-secondary text-center text-[17px]  leading-[30px]">
                     Following projects showcase my skills and experience through
                     real-world examples of my work. Each project is briefly described with
                     links to live demos in it. It reflects my ability to solve complex
@@ -84,7 +82,7 @@ const Works: React.FC = () => {
                 </p>
             </div>
 
-            <div className="mt-20 flex flex-wrap gap-7">
+            <div className="mt-20 flex flex-wrap gap-4">
                 {projects.map((project, index) => (
                     <ProjectCard key={`project-${index}`} {...project} />
                 ))}
